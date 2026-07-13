@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    float n,m,a;
+    double n,m,a;
     cin >> n >> m >> a;
-    int Tiles = ceil(n/a) * ceil(m/a);
+    long long Tiles = ceil(n/a) * ceil(m/a);
     cout << Tiles << endl;
     return 0;
 }
